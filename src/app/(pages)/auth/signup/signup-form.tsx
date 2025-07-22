@@ -128,7 +128,7 @@ function SignupForm() {
 
               {mutation.isSuccess && (
                 <div className=" h-[40px] bg-green-100 flex justify-center items-center font-secondary font-semibold text-green-700 border-[1px] border-green-300">
-                  Successfylly sign-up
+                  Successfully sign-up
                 </div>
               )}
             </form>

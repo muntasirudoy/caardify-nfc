@@ -172,7 +172,7 @@ function SignupForm() {
 
             {!mutation.isLoading && mutation.isSuccess && (
               <p className="text-green-500 text-center mt-4">
-                Successfylly Log-in
+                Successfully Log-in
               </p>
             )}
           </div>
