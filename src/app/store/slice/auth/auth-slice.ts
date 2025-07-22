@@ -29,7 +29,7 @@ const authSlice = createSlice({
     },
     signOutSuccess(state) {
       state.signedIn = false;
-      state.refreshToken = null;
+      state.accessToken = null;
       state.refreshToken = null;
     },
   },
